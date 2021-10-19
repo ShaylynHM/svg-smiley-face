@@ -1,13 +1,3 @@
-html {
-background-color: white;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 .face {
   fill: gold;
 }
@@ -22,13 +12,13 @@ background-color: white;
 .left-eyebrow {
   transform: rotate(80deg);
   transform-origin: 100px 82px;
-  transition-property: all .5 linear;
+  transition-property: all: 0.5 linear;
 }
 
 .right-eyebrow {
   transform: rotate(100deg);
   transform-origin: 156px 82px;
-  transition-property: all .5 linear;
+  transition-property: all: 0.5 linear;
 }
 
 .smiley:hover .left-eyebrow {
